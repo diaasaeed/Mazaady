@@ -1,0 +1,190 @@
+[
+    {
+        "Code": "90000",
+        "En": "An unspecified error has occurred. Please try again.",
+        "Ar": "حدث خطأ غير محدد. يرجى المحاولة مرة أخرى."
+    },
+    {
+        "Code": "90001",
+        "En": "Authentication failed. Please check your username and password.",
+        "Ar": "فشل التحقق من الهوية. يرجى التحقق من اسم المستخدم وكلمة المرور.",
+    },
+    {
+        "Code": "90002",
+        "En": "The file size exceeds the maximum allowed limit.",
+        "Ar": "حجم الملف يتجاوز الحد المسموح به."
+    },
+    {
+        "Code": "90003",
+        "En": "The specified integration type was not found.",
+        "Ar": "لم يتم العثور على نوع الدمج المحدد."
+    },
+    {
+        "Code": "90004",
+        "En": "A required field is missing. Please check your input.",
+        "Ar": "يوجد حقل مطلوب مفقود. يرجى التحقق من المدخلات."
+    },
+    {
+        "Code": "90005",
+        "En": "The deed number does not exist. Please verify the information.",
+        "Ar": "رقم الصك غير موجود. يرجى التحقق من المعلومات."
+    },
+    {
+        "Code": "90006",
+        "En": "Maximum number of attempts exceeded. Please wait before trying again.",
+        "Ar": "تم تجاوز العدد الأقصى للمحاولات. يرجى الانتظار قبل المحاولة مرة أخرى."
+    },
+    {
+        "Code": "90007",
+        "En": "The one-time password entered is incorrect. Please check and try again.",
+        "Ar": "كلمة المرور لمرة واحدة المدخلة غير صحيحة. يرجى التحقق والمحاولة مرة أخرى."
+    },
+    {
+        "Code": "90008",
+        "En": "An error occurred during Absher OTP verification.",
+        "Ar": "حدث خطأ أثناء التحقق من OTP في أبشر."
+    },
+    {
+        "Code": "90010",
+        "En": "No user found with the provided National Identification Number for OTP.",
+        "Ar": "لم يتم العثور على مستخدم بالرقم الوطني المحدد لـ OTP."
+    },
+    {
+        "Code": "90011",
+        "En": "The maximum number of OTPs sent has been reached.",
+        "Ar": "تم الوصول للحد الأقصى لعدد OTPs المرسلة."
+    },
+    {
+        "Code": "10000",
+        "En": "Incorrect information was entered. Please review and correct your input.",
+        "Ar": "تم إدخال معلومات غير صحيحة. يرجى مراجعة وتصحيح المدخلات."
+    },
+    {
+        "Code": "5000",
+        "En": "Applicant information is missing or incomplete.",
+        "Ar": "معلومات المتقدم مفقودة أو غير كاملة."
+    },
+    {
+        "Code": "90020",
+        "En": "Unable to retrieve registration status. No result found.",
+        "Ar": "تعذر استرجاع حالة التسجيل. لا يوجد نتيجة."
+    },
+    {
+        "Code": "90021",
+        "En": "The specified deed does not exist. Please check the deednumber.",
+        "Ar": "الصك المحدد غير موجود. يرجى التحقق من رقم الصك."
+    },
+    {
+        "Code": "90019",
+        "En": "The specified deed does not exist. Please check the deednumber.",
+        "Ar": "الصك المحدد غير موجود. يرجى التحقق من رقم الصك."
+    },
+    {
+        "Code": "90022",
+        "En": "Moving to the next step is not allowed at this time.",
+        "Ar": "غير مسموح بالانتقال إلى الخطوة التالية في هذا الوقت."
+    },
+    {
+        "Code": "90023",
+        "En": "A previous request exists for this deed number.",
+        "Ar": "يوجد طلب سابق لهذا رقم الصك."
+    },
+    {
+        "Code": "90024",
+        "En": "The right holder type ID entered is incorrect.",
+        "Ar": "معرف نوع حامل الحق المدخل غير صحيح."
+    },
+    {
+        "Code": "90026",
+        "En": "The deed number provided does not exist.",
+        "Ar": "رقم الصك المقدم غير موجود."
+    },
+    {
+        "Code": "90027",
+        "En": "The deed is not currently active.",
+        "Ar": "الصك غير نشط حاليًا."
+    },
+    {
+        "Code": "90028",
+        "En": "An integration error occurred with the Ministry of Justice.",
+        "Ar": "حدث خطأ في الدمج مع وزارة العدل."
+    },
+    {
+        "Code": "90029",
+        "En": "The deed contains more than one parcel.",
+        "Ar": "الصك يحتوي على أكثر من قطعة أرض."
+    },
+    {
+        "Code": "90030",
+        "En": "The entered code is not valid. Please try again.",
+        "Ar": "رمز التحقق غير صالح. يرجى المحاولة مرة أخرى."
+    },
+    {
+        "Code": "90031",
+        "En": "An error occurred while downloading the attachment.",
+        "Ar": "حدث خطأ أثناء تنزيل المرفق."
+    },
+    {
+        "Code": "90032",
+        "En": "The Ministry of Justice deed service is currently unavailable.",
+        "Ar": "خدمة الصكوك في وزارة العدل غير متاحة حاليًا."
+    },
+    {
+        "Code": "90033",
+        "En": "The Wathq number entered is invalid.",
+        "Ar": "رقم الوثق المدخل غير صالح."
+    },
+    {
+        "Code": "90034",
+        "En": "The floor number exceeds the maximum allowed value.",
+        "Ar": "رقم الطابق يتجاوز القيمة القصوى المسموح بها."
+    },
+    {
+        "Code": "90035",
+        "En": "here is an on - going or an approved case with the same deed on the same parcel",
+        "Ar": "تم تقديم طلب التسجيل العيني مسبقًا لهذا العقار"
+    },
+    {
+        "Code": "90036",
+        "En": "The parcel is already registered.",
+        "Ar": "القطعة مسجلة بالفعل."
+    },
+    {
+        "Code": "90037",
+        "En": "No request exists for this case ID.",
+        "Ar": "لا يوجد طلب لهذا الرقم التعريفي للقضية."
+    },
+    {
+        "Code": "90038",
+        "En": "Incorrect data entered for Yaqeen verification.",
+        "Ar": "تم إدخال بيانات غير صحيحة للتحقق من يقين."
+    },
+    {
+        "Code": "90025",
+        "En": "The filled information is not correct please confirm your information then try again",
+        "Ar": "البيانات المدخلة غير صحيحة، الرجاء التأكد وإعادة المحاولة من جديد"
+    },
+    {
+        "Code": "101145",
+        "En": "No results were found for your search",
+        "Ar": "لم يتم العثور على نتيجة للبحث الخاص بك"
+    },
+    {
+        "Code": "101134",
+        "En": "Sorry, the time period for you to respond has expired",
+        "Ar": "عذرًا، انتهت المدة الزمنية للرد"
+    },
+    {
+        "Code": "10111",
+        "En": "Sorry you can't proceed due there is ongoing request on the same property.",
+        "Ar": "عذراً، لا يمكن رفع الطلب حالياَ لوجود طلب قائم على نفس العقار المدخل."
+    },
+    {
+        "Code": "90038",
+        "En": "Incorrect data entered for Yaqeen verification.",
+        "Ar": "تم إدخال بيانات غير صحيحة للتحقق من يقين."
+    }
+]
+
+
+ 

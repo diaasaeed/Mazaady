@@ -19,7 +19,35 @@
 		0197C3AB2DA8A69700B93459 /* Tabs View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3AA2DA8A69700B93459 /* Tabs View.swift */; };
 		0197C3AD2DA8ADDE00B93459 /* Profile + Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3AC2DA8ADDE00B93459 /* Profile + Tabs.swift */; };
 		0197C3B02DA8AE9300B93459 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3AF2DA8AE9300B93459 /* CustomSearchBar.swift */; };
-		B33D817B7E5A9B79EDDCB3B2 /* Pods_Mazaady_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468F0BAF0DA481C9FB01B6BF /* Pods_Mazaady_Task.framework */; };
+		0197C3B72DA8C49F00B93459 /* testCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197C3B62DA8C49F00B93459 /* testCollectionViewCell.xib */; };
+		0197C3B82DA8C49F00B93459 /* testCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3B52DA8C49F00B93459 /* testCollectionViewCell.swift */; };
+		0197C3BB2DA8C51B00B93459 /* AdsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197C3BA2DA8C51B00B93459 /* AdsCell.xib */; };
+		0197C3BC2DA8C51B00B93459 /* AdsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3B92DA8C51B00B93459 /* AdsCell.swift */; };
+		0197C3BF2DA8CA2500B93459 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197C3BE2DA8CA2500B93459 /* ProductCell.xib */; };
+		0197C3C02DA8CA2500B93459 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3BD2DA8CA2500B93459 /* ProductCell.swift */; };
+		0197C3C22DA9C40700B93459 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3C12DA9C40700B93459 /* UserProfileViewModel.swift */; };
+		0197C3C42DAA201E00B93459 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3C32DAA201E00B93459 /* UserInfoModel.swift */; };
+		0197C3C62DAA202500B93459 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3C52DAA202500B93459 /* ProductModel.swift */; };
+		0197C3C82DAA202A00B93459 /* TagsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3C72DAA202A00B93459 /* TagsModel.swift */; };
+		0197C3CA2DAA202F00B93459 /* AdsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3C92DAA202F00B93459 /* AdsModel.swift */; };
+		0197C3CD2DAA431500B93459 /* EnviromentConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3CC2DAA431500B93459 /* EnviromentConfigurations.swift */; };
+		0197C3D62DAA438A00B93459 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3CE2DAA438A00B93459 /* APIEndpoint.swift */; };
+		0197C3D72DAA438A00B93459 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3CF2DAA438A00B93459 /* Client.swift */; };
+		0197C3D82DAA438A00B93459 /* GenricAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3D02DAA438A00B93459 /* GenricAPIResponse.swift */; };
+		0197C3D92DAA438A00B93459 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3D12DAA438A00B93459 /* MoyaProvider.swift */; };
+		0197C3DA2DAA438A00B93459 /* MoyaProvider+Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3D22DAA438A00B93459 /* MoyaProvider+Transport.swift */; };
+		0197C3DB2DAA438A00B93459 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3D32DAA438A00B93459 /* NetworkClient.swift */; };
+		0197C3DC2DAA438A00B93459 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3D42DAA438A00B93459 /* Transport.swift */; };
+		0197C3E22DAA439D00B93459 /* Headers .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3DD2DAA439D00B93459 /* Headers .swift */; };
+		0197C3E32DAA439D00B93459 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3DF2DAA439D00B93459 /* APIError.swift */; };
+		0197C3E42DAA439D00B93459 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3E02DAA439D00B93459 /* BackendError.swift */; };
+		0197C3EA2DAA45B700B93459 /* ErrorsMessages.json in Resources */ = {isa = PBXBuildFile; fileRef = 0197C3E52DAA45B700B93459 /* ErrorsMessages.json */; };
+		0197C3EB2DAA45B700B93459 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3E72DAA45B700B93459 /* JSONParser.swift */; };
+		0197C3EC2DAA45B700B93459 /* JsonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3E82DAA45B700B93459 /* JsonUtilities.swift */; };
+		0197C3EF2DAA4F8B00B93459 /* Profile Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3EE2DAA4F8B00B93459 /* Profile Endpoint.swift */; };
+		0197C3F12DAA54DD00B93459 /* profile Request Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3F02DAA54DD00B93459 /* profile Request Protocol.swift */; };
+		0197C3F32DAA572200B93459 /* ProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197C3F22DAA572200B93459 /* ProfileRequest.swift */; };
+		87BABF41194DA74E670E879A /* Pods_Mazaady_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375EBDDED57DEC543A19BAD4 /* Pods_Mazaady_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +65,37 @@
 		0197C3AA2DA8A69700B93459 /* Tabs View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tabs View.swift"; sourceTree = "<group>"; };
 		0197C3AC2DA8ADDE00B93459 /* Profile + Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile + Tabs.swift"; sourceTree = "<group>"; };
 		0197C3AF2DA8AE9300B93459 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
-		24EFF82ACFBA404C3B2D2701 /* Pods-Mazaady Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady Task.debug.xcconfig"; path = "Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task.debug.xcconfig"; sourceTree = "<group>"; };
-		468F0BAF0DA481C9FB01B6BF /* Pods_Mazaady_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mazaady_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB86B9898695ACE97BE72F99 /* Pods-Mazaady Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady Task.release.xcconfig"; path = "Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task.release.xcconfig"; sourceTree = "<group>"; };
+		0197C3B52DA8C49F00B93459 /* testCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCollectionViewCell.swift; sourceTree = "<group>"; };
+		0197C3B62DA8C49F00B93459 /* testCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testCollectionViewCell.xib; sourceTree = "<group>"; };
+		0197C3B92DA8C51B00B93459 /* AdsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCell.swift; sourceTree = "<group>"; };
+		0197C3BA2DA8C51B00B93459 /* AdsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsCell.xib; sourceTree = "<group>"; };
+		0197C3BD2DA8CA2500B93459 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		0197C3BE2DA8CA2500B93459 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		0197C3C12DA9C40700B93459 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		0197C3C32DAA201E00B93459 /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		0197C3C52DAA202500B93459 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		0197C3C72DAA202A00B93459 /* TagsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsModel.swift; sourceTree = "<group>"; };
+		0197C3C92DAA202F00B93459 /* AdsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsModel.swift; sourceTree = "<group>"; };
+		0197C3CC2DAA431500B93459 /* EnviromentConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnviromentConfigurations.swift; sourceTree = "<group>"; };
+		0197C3CE2DAA438A00B93459 /* APIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		0197C3CF2DAA438A00B93459 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		0197C3D02DAA438A00B93459 /* GenricAPIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenricAPIResponse.swift; sourceTree = "<group>"; };
+		0197C3D12DAA438A00B93459 /* MoyaProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
+		0197C3D22DAA438A00B93459 /* MoyaProvider+Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Transport.swift"; sourceTree = "<group>"; };
+		0197C3D32DAA438A00B93459 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		0197C3D42DAA438A00B93459 /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		0197C3DD2DAA439D00B93459 /* Headers .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Headers .swift"; sourceTree = "<group>"; };
+		0197C3DF2DAA439D00B93459 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		0197C3E02DAA439D00B93459 /* BackendError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
+		0197C3E52DAA45B700B93459 /* ErrorsMessages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ErrorsMessages.json; sourceTree = "<group>"; };
+		0197C3E72DAA45B700B93459 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		0197C3E82DAA45B700B93459 /* JsonUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonUtilities.swift; sourceTree = "<group>"; };
+		0197C3EE2DAA4F8B00B93459 /* Profile Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile Endpoint.swift"; sourceTree = "<group>"; };
+		0197C3F02DAA54DD00B93459 /* profile Request Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "profile Request Protocol.swift"; sourceTree = "<group>"; };
+		0197C3F22DAA572200B93459 /* ProfileRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRequest.swift; sourceTree = "<group>"; };
+		375EBDDED57DEC543A19BAD4 /* Pods_Mazaady_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mazaady_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		742E17CD2D9F3F8E4006B84C /* Pods-Mazaady Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady Task.release.xcconfig"; path = "Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task.release.xcconfig"; sourceTree = "<group>"; };
+		C3934DEB5D01C1EF16523FE5 /* Pods-Mazaady Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady Task.debug.xcconfig"; path = "Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33D817B7E5A9B79EDDCB3B2 /* Pods_Mazaady_Task.framework in Frameworks */,
+				87BABF41194DA74E670E879A /* Pods_Mazaady_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +116,7 @@
 				0197C37E2DA837AF00B93459 /* Mazaady Task */,
 				0197C37D2DA837AF00B93459 /* Products */,
 				6B1896B886DAF67985B110F5 /* Pods */,
-				A074A151B1B4BB3F935261E9 /* Frameworks */,
+				EED6AE16668AD6DD555C01C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +159,10 @@
 		0197C3942DA84EEB00B93459 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0197C3C52DAA202500B93459 /* ProductModel.swift */,
+				0197C3C32DAA201E00B93459 /* UserInfoModel.swift */,
+				0197C3C72DAA202A00B93459 /* TagsModel.swift */,
+				0197C3C92DAA202F00B93459 /* AdsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,6 +170,7 @@
 		0197C3952DA84EF500B93459 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				0197C3C12DA9C40700B93459 /* UserProfileViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -117,6 +178,7 @@
 		0197C3962DA84EFE00B93459 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0197C3B32DA8C1B700B93459 /* Cell */,
 				0197C3AE2DA8AE7C00B93459 /* Searchbar */,
 				0197C3A92DA8A68600B93459 /* Tabs */,
 				0197C39B2DA8512100B93459 /* Header Profile */,
@@ -152,6 +214,12 @@
 		0197C3A82DA8A67500B93459 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				0197C3ED2DAA4F7300B93459 /* Requests */,
+				0197C3CC2DAA431500B93459 /* EnviromentConfigurations.swift */,
+				0197C3E92DAA45B700B93459 /* Resources */,
+				0197C3D52DAA438A00B93459 /* Network layer */,
+				0197C3DE2DAA439D00B93459 /* Headers */,
+				0197C3E12DAA439D00B93459 /* NetworkError */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -172,19 +240,115 @@
 			path = Searchbar;
 			sourceTree = "<group>";
 		};
+		0197C3B12DA8BA2400B93459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3BD2DA8CA2500B93459 /* ProductCell.swift */,
+				0197C3BE2DA8CA2500B93459 /* ProductCell.xib */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		0197C3B22DA8C1AB00B93459 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3B92DA8C51B00B93459 /* AdsCell.swift */,
+				0197C3BA2DA8C51B00B93459 /* AdsCell.xib */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		0197C3B32DA8C1B700B93459 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3B12DA8BA2400B93459 /* Products */,
+				0197C3B22DA8C1AB00B93459 /* Ads */,
+				0197C3B42DA8C1C000B93459 /* Tags */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0197C3B42DA8C1C000B93459 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3B52DA8C49F00B93459 /* testCollectionViewCell.swift */,
+				0197C3B62DA8C49F00B93459 /* testCollectionViewCell.xib */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		0197C3D52DAA438A00B93459 /* Network layer */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3CE2DAA438A00B93459 /* APIEndpoint.swift */,
+				0197C3CF2DAA438A00B93459 /* Client.swift */,
+				0197C3D02DAA438A00B93459 /* GenricAPIResponse.swift */,
+				0197C3D12DAA438A00B93459 /* MoyaProvider.swift */,
+				0197C3D22DAA438A00B93459 /* MoyaProvider+Transport.swift */,
+				0197C3D32DAA438A00B93459 /* NetworkClient.swift */,
+				0197C3D42DAA438A00B93459 /* Transport.swift */,
+			);
+			path = "Network layer";
+			sourceTree = "<group>";
+		};
+		0197C3DE2DAA439D00B93459 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3DD2DAA439D00B93459 /* Headers .swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		0197C3E12DAA439D00B93459 /* NetworkError */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3DF2DAA439D00B93459 /* APIError.swift */,
+				0197C3E02DAA439D00B93459 /* BackendError.swift */,
+			);
+			path = NetworkError;
+			sourceTree = "<group>";
+		};
+		0197C3E62DAA45B700B93459 /* Json Files */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3E52DAA45B700B93459 /* ErrorsMessages.json */,
+			);
+			path = "Json Files";
+			sourceTree = "<group>";
+		};
+		0197C3E92DAA45B700B93459 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3E62DAA45B700B93459 /* Json Files */,
+				0197C3E72DAA45B700B93459 /* JSONParser.swift */,
+				0197C3E82DAA45B700B93459 /* JsonUtilities.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0197C3ED2DAA4F7300B93459 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				0197C3EE2DAA4F8B00B93459 /* Profile Endpoint.swift */,
+				0197C3F02DAA54DD00B93459 /* profile Request Protocol.swift */,
+				0197C3F22DAA572200B93459 /* ProfileRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		6B1896B886DAF67985B110F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				24EFF82ACFBA404C3B2D2701 /* Pods-Mazaady Task.debug.xcconfig */,
-				DB86B9898695ACE97BE72F99 /* Pods-Mazaady Task.release.xcconfig */,
+				C3934DEB5D01C1EF16523FE5 /* Pods-Mazaady Task.debug.xcconfig */,
+				742E17CD2D9F3F8E4006B84C /* Pods-Mazaady Task.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		A074A151B1B4BB3F935261E9 /* Frameworks */ = {
+		EED6AE16668AD6DD555C01C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				468F0BAF0DA481C9FB01B6BF /* Pods_Mazaady_Task.framework */,
+				375EBDDED57DEC543A19BAD4 /* Pods_Mazaady_Task.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,10 +360,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0197C3902DA837B100B93459 /* Build configuration list for PBXNativeTarget "Mazaady Task" */;
 			buildPhases = (
-				6090C90951D8B9561B12F657 /* [CP] Check Pods Manifest.lock */,
+				299E9B3F21CCC11CBEBACA97 /* [CP] Check Pods Manifest.lock */,
 				0197C3782DA837AF00B93459 /* Sources */,
 				0197C3792DA837AF00B93459 /* Frameworks */,
 				0197C37A2DA837AF00B93459 /* Resources */,
+				8ADE286D58E96E9DAAE52EB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,17 +413,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0197C3EA2DAA45B700B93459 /* ErrorsMessages.json in Resources */,
 				0197C39D2DA8522C00B93459 /* HeaderProfileView.xib in Resources */,
 				0197C3892DA837B100B93459 /* Assets.xcassets in Resources */,
+				0197C3BF2DA8CA2500B93459 /* ProductCell.xib in Resources */,
+				0197C3BB2DA8C51B00B93459 /* AdsCell.xib in Resources */,
 				0197C38C2DA837B100B93459 /* Base in Resources */,
 				0197C3872DA837AF00B93459 /* Base in Resources */,
+				0197C3B72DA8C49F00B93459 /* testCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6090C90951D8B9561B12F657 /* [CP] Check Pods Manifest.lock */ = {
+		299E9B3F21CCC11CBEBACA97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,6 +449,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8ADE286D58E96E9DAAE52EB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -287,14 +473,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0197C3E42DAA439D00B93459 /* BackendError.swift in Sources */,
+				0197C3F12DAA54DD00B93459 /* profile Request Protocol.swift in Sources */,
+				0197C3BC2DA8C51B00B93459 /* AdsCell.swift in Sources */,
+				0197C3EB2DAA45B700B93459 /* JSONParser.swift in Sources */,
+				0197C3D62DAA438A00B93459 /* APIEndpoint.swift in Sources */,
+				0197C3CD2DAA431500B93459 /* EnviromentConfigurations.swift in Sources */,
+				0197C3C02DA8CA2500B93459 /* ProductCell.swift in Sources */,
+				0197C3CA2DAA202F00B93459 /* AdsModel.swift in Sources */,
 				0197C3A72DA8A30900B93459 /* UIView.swift in Sources */,
+				0197C3F32DAA572200B93459 /* ProfileRequest.swift in Sources */,
+				0197C3C82DAA202A00B93459 /* TagsModel.swift in Sources */,
+				0197C3DC2DAA438A00B93459 /* Transport.swift in Sources */,
+				0197C3D82DAA438A00B93459 /* GenricAPIResponse.swift in Sources */,
 				0197C3AB2DA8A69700B93459 /* Tabs View.swift in Sources */,
+				0197C3EC2DAA45B700B93459 /* JsonUtilities.swift in Sources */,
 				0197C3842DA837AF00B93459 /* Profile VC.swift in Sources */,
+				0197C3C62DAA202500B93459 /* ProductModel.swift in Sources */,
+				0197C3C22DA9C40700B93459 /* UserProfileViewModel.swift in Sources */,
+				0197C3DA2DAA438A00B93459 /* MoyaProvider+Transport.swift in Sources */,
 				0197C3AD2DA8ADDE00B93459 /* Profile + Tabs.swift in Sources */,
+				0197C3B82DA8C49F00B93459 /* testCollectionViewCell.swift in Sources */,
+				0197C3E22DAA439D00B93459 /* Headers .swift in Sources */,
 				0197C3802DA837AF00B93459 /* AppDelegate.swift in Sources */,
+				0197C3C42DAA201E00B93459 /* UserInfoModel.swift in Sources */,
+				0197C3D92DAA438A00B93459 /* MoyaProvider.swift in Sources */,
 				0197C3822DA837AF00B93459 /* SceneDelegate.swift in Sources */,
+				0197C3D72DAA438A00B93459 /* Client.swift in Sources */,
 				0197C3B02DA8AE9300B93459 /* CustomSearchBar.swift in Sources */,
+				0197C3DB2DAA438A00B93459 /* NetworkClient.swift in Sources */,
 				0197C39F2DA8555B00B93459 /* HeaderProfileView.swift in Sources */,
+				0197C3EF2DAA4F8B00B93459 /* Profile Endpoint.swift in Sources */,
+				0197C3E32DAA439D00B93459 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,13 +651,15 @@
 		};
 		0197C3912DA837B100B93459 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24EFF82ACFBA404C3B2D2701 /* Pods-Mazaady Task.debug.xcconfig */;
+			baseConfigurationReference = C3934DEB5D01C1EF16523FE5 /* Pods-Mazaady Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X329TZD97B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mazaady Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,13 +683,14 @@
 		};
 		0197C3922DA837B100B93459 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB86B9898695ACE97BE72F99 /* Pods-Mazaady Task.release.xcconfig */;
+			baseConfigurationReference = 742E17CD2D9F3F8E4006B84C /* Pods-Mazaady Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X329TZD97B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mazaady Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
