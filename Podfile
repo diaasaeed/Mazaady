@@ -13,5 +13,14 @@ target 'Mazaady Task' do
   pod 'RxCocoa'
   pod 'RxDataSources'
   pod 'Moya'
+  pod 'lottie-ios'
 
 end
+  
+#target 'Mazaady TaskTests' do
+#  inherit! :search_paths
+#
+#  pod 'RxSwift'
+#  pod 'RxBlocking'
+#  pod 'RxTest'
+#end

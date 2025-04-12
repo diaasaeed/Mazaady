@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct ProductModel: Codable {
+struct ProductModel: Codable , Equatable {
     var id: Int?
     var name: String?
     var image: String?

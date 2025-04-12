@@ -17,7 +17,8 @@ enum ProfileAPIEndPoint {
 
 extension ProfileAPIEndPoint: APIEndpoint {
     var baseURL: URL {
-        return URL(string: EnviromentConfigurations.baseUrl.rawValue)!
+        print("asdasd",EnviromentConfigurations.baseUrl)
+        return URL(string: "https://"+EnviromentConfigurations.baseUrl)!
     }
 
     var path: String {

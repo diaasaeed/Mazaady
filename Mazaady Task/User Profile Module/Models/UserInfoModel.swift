@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct UserInfoModel: Codable {
+struct UserInfoModel: Codable , Equatable {
     var id: Int?
     var name: String?
     var image: String?

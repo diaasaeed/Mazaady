@@ -14,10 +14,56 @@
             filePath = "Mazaady Task/User Profile Module/Profile VC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "updateUI(with:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "261DA709-C102-4FD4-B493-CB1A91F90794 - d230b2013217d896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mazaady_Task.ProfileViewController.updateUI(with: Mazaady_Task.UserProfileData) -&gt; ()"
+                  moduleName = "Mazaady Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diaasaeed/Desktop/Mazaady%20Task/Mazaady%20Task/User%20Profile%20Module/Profile%20VC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81">
+               </Location>
+               <Location
+                  uuid = "261DA709-C102-4FD4-B493-CB1A91F90794 - c6d8732314a4a938"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Dead&gt; of Mazaady_Task.ProfileViewController.updateUI(with: Mazaady_Task.UserProfileData) -&gt; ()"
+                  moduleName = "Mazaady Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diaasaeed/Desktop/Mazaady%20Task/Mazaady%20Task/User%20Profile%20Module/Profile%20VC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FEC13ED-2B7C-40CE-B1A8-E446691693B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mazaady Task/Network/Requests/Profile Endpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "baseURL"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

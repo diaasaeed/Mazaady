@@ -22,7 +22,8 @@ class ProfileViewController: UIViewController     {
     //       private let rootStackView = UIStackView()
     private let viewModel = UserProfileViewModel()
     private let disposeBag = DisposeBag()
-    
+    private var lottieLoadingTag: Int { return 987654 }
+
     
     //    init(viewModel: UserProfileViewModel) {
     //        self.viewModel = viewModel
@@ -82,13 +83,22 @@ class ProfileViewController: UIViewController     {
     
     private func showLoading() {
         // Show loading indicator
+        if view.viewWithTag(lottieLoadingTag) != nil { return }
+        
+        let loadingView = LottieLoadingView()
+        loadingView.tag = lottieLoadingTag
+        loadingView.show(in: view)
     }
     
     private func hideLoading() {
-        // Hide loading indicator
+        if let loadingView = view.viewWithTag(lottieLoadingTag) as? LottieLoadingView {
+            loadingView.hide()
+        }
     }
     
     private func showError(_ error: Error) {
         // Show error message
+        print("Error is",error.localizedDescription)
     }
 }
+

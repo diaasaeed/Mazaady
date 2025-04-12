@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct TagsModel: Codable {
+struct TagsModel: Codable , Equatable{
     var tags: [Tag]?
 }
 
 // MARK: - Tag
-struct Tag: Codable {
+struct Tag: Codable , Equatable {
     var id: Int?
     var name: String?
 }

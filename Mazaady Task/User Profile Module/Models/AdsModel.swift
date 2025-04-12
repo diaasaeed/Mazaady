@@ -6,12 +6,12 @@
 //
 
 import Foundation
-struct AdsModel: Codable {
+struct AdsModel: Codable ,Equatable{
     var advertisements: [Advertisement]?
 }
 
 // MARK: - Advertisement
-struct Advertisement: Codable {
+struct Advertisement: Codable,Equatable {
     var id: Int?
     var image: String?
 }

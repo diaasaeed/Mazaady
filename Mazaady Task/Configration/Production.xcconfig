@@ -1,0 +1,11 @@
+//
+//  Production.xcconfig
+//  Mazaady Task
+//
+//  Created by Diaa saeed on 12/04/2025.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = stagingapi.mazaady.com/api/interview-tasks/
