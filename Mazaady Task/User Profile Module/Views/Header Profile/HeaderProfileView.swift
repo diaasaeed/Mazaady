@@ -23,6 +23,7 @@ class HeaderProfileView: UIView {
         super.init(coder: aDecoder)
         commonInit() 
         SetuserData()
+        userProfileImage.layer.cornerRadius = 10
     }
     
     

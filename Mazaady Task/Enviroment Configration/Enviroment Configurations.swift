@@ -16,19 +16,6 @@ enum EnviromentConfigurations  {
             fatalError(error.localizedDescription)
         }
     }
-//    case baseUrl {
-//        do{
-//            rturn
-//        }
-//    } // = "https://stagingapi.mazaady.com/api/interview-tasks/"
-
-//    BuildConfiguration.value(for: "BASE_RL")
-    // MARK: - Plist values
-//    var value: String {
-//        get {
-//            return Bundle.main.infoDictionary?[self.rawValue] as? String ?? "Default Value"
-//        }
-//    }
 }
 
 

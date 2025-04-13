@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="testCollectionViewCell" customModule="Mazaady_Task" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TagCell" id="gTV-IL-0wX" customClass="TagCell" customModule="Mazaady_Task" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="157" height="50"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -47,7 +47,7 @@
             </constraints>
             <size key="customSize" width="157" height="50"/>
             <connections>
-                <outlet property="tagLable" destination="9vy-Yx-vJb" id="plt-N9-dRr"/>
+                <outlet property="titleLabel" destination="9vy-Yx-vJb" id="W4p-2r-s49"/>
             </connections>
             <point key="canvasLocation" x="208.3969465648855" y="19.718309859154932"/>
         </collectionViewCell>

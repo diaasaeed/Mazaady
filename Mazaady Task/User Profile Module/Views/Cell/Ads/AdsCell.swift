@@ -14,6 +14,10 @@ class AdsCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        adsImg.layer.cornerRadius = 10
     }
 
+    func setData(img:String){
+        adsImg.sd_setImage(with: URL(string: img))
+    }
 }

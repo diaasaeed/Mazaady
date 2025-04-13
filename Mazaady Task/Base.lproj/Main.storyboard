@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -45,7 +44,7 @@
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hfv-4G-CiO">
                                 <rect key="frame" x="0.0" y="459" width="393" height="359"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,7 +64,7 @@
                     </view>
                     <connections>
                         <outlet property="headerHeigth" destination="v4g-uJ-2sR" id="t5v-Qf-v5o"/>
-                        <outlet property="headerProfileView" destination="4lH-SP-msv" id="8Lt-UU-lMR"/>
+                        <outlet property="headerProfileView" destination="4lH-SP-msv" id="F8I-TV-H8F"/>
                         <outlet property="listView" destination="Hfv-4G-CiO" id="TWE-Ci-2dF"/>
                         <outlet property="searchBarView" destination="J6t-Tw-efk" id="OuT-Zd-vgP"/>
                         <outlet property="tabBarView" destination="ZTF-fb-CpN" id="rOa-v5-dAf"/>
@@ -76,9 +75,4 @@
             <point key="canvasLocation" x="-5" y="4"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
