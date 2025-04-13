@@ -23,8 +23,8 @@ extension ProfileViewController : UICollectionViewDelegateFlowLayout{
                                     forCellWithReuseIdentifier: "TagCell")
     }
     
-    
-    func setupCollectionsUI(productHeight:CGFloat , adsHeight:CGFloat) {
+    // set all collection view in stackview
+    func setupCollectionsUI() {
         stackView.backgroundColor = .clear
         scrollView.backgroundColor = .clear
         // Setup ScrollView
@@ -50,12 +50,7 @@ extension ProfileViewController : UICollectionViewDelegateFlowLayout{
             stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: -20),
             stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor, constant: -32) // Match scrollView width
         ])
-        
-        // Add collectionViews
-        // Set different heights for collection views
-        
-        
-        
+                
         // Add collectionViews to stack view
         [ProductsCollectionView, advertisementsCollectionView , tagsCollectionView].forEach { collectionView in
             stackView.addArrangedSubview(collectionView)
@@ -77,6 +72,7 @@ extension ProfileViewController : UICollectionViewDelegateFlowLayout{
     }
     
     
+    // size item cell
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
            if collectionView == ProductsCollectionView {
                // Product cell size
@@ -97,7 +93,7 @@ extension ProfileViewController : UICollectionViewDelegateFlowLayout{
        
 }
 
-
+// controll scroll view
 extension ProfileViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
            let offsetY = scrollView.contentOffset.y
@@ -115,6 +111,7 @@ extension ProfileViewController: UIScrollViewDelegate {
                    if offsetY >= headerHideThreshold {
                        isHeaderHidden = true
                        headerHeigth.constant = 0
+                       self.headerProfileView.isHidden = true
                    }
                }
            } else {
@@ -123,6 +120,7 @@ extension ProfileViewController: UIScrollViewDelegate {
                    isHeaderHidden = false
                    let newHeight = min(originalHeaderHeight, originalHeaderHeight * (1 - scrollPercentage))
                    headerHeigth.constant = newHeight
+                   self.headerProfileView.isHidden = false
                }
            }
            

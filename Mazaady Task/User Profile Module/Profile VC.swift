@@ -29,12 +29,12 @@ class ProfileViewController: UIViewController     {
     lazy var tagsCollectionView = self.createVerticalCollectionView()
 
     var originalHeaderHeight: CGFloat = 300 // Set your initial header height
-    var isHeaderHidden = false
+    var isHeaderHidden = false // when scroll hieddn header
     var headerHideThreshold: CGFloat {
             return originalHeaderHeight * 0.5 // Hide when scrolled halfway
         }
-    var tagWidths: [CGFloat] = []
-
+    var tagWidths: [CGFloat] = [] // tags string width
+    private var productsCollectionViewHeightConstraint: NSLayoutConstraint? // when make filter change constraint products collectionview
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -54,13 +54,16 @@ class ProfileViewController: UIViewController     {
 
     }
     
+    
+    // when update in search bar
     @objc func handleSearch() {
         print("Search tapped with query:", searchBarView.textField.text ?? "")
+        searchBarView.textField.rx.text.orEmpty.bind(to: viewModel.searchQuery)
+            .disposed(by: disposeBag)
     }
     
     
     //MARK: - Binding
-    
     func AllBinding(){
         bindProfile()
         bindLoading()
@@ -69,7 +72,7 @@ class ProfileViewController: UIViewController     {
         bindTags()
         CollectionAction()
         bindError()
-        setupCollectionsUI(productHeight: 0, adsHeight: 0)
+        setupCollectionsUI()
     }
     
     // Profile Data
@@ -106,25 +109,32 @@ class ProfileViewController: UIViewController     {
     }
     
     // Display Collection View Data
+    
+    
+    // products
     private func bindProducnts() {
 
-        viewModel.productsData.subscribe(onNext: { [weak self] products in
+        viewModel.filteredProducts.subscribe(onNext: { [weak self] products in
             let rows = ceil(Double(products.count) / 2.0) // 2 columns
             let height = rows * 230 + (rows - 1) * 12 // cell height + spacing
-            print("height",height)
-            self?.ProductsCollectionView.heightAnchor.constraint(equalToConstant: CGFloat(height)).isActive = true
+            self?.productsCollectionViewHeightConstraint?.isActive = false
+                        
+                        // Set new height constraint
+            let newConstraint = self?.ProductsCollectionView.heightAnchor.constraint(equalToConstant: CGFloat(height))
+            newConstraint?.isActive = true
+            self?.productsCollectionViewHeightConstraint = newConstraint
         })
         .disposed(by: disposeBag)
         
-        viewModel.productsData
+        viewModel.filteredProducts
             .bind(to: ProductsCollectionView.rx.items(cellIdentifier: "ProductCell",cellType: ProductCell.self)) { index , item, cell in
                 cell.setData(item: item)
             }
             .disposed(by: disposeBag)
-        
     }
     
-    
+
+    // ads
     private  func bindAds(){
         viewModel.adsData.subscribe(onNext: { [weak self] data in
             print(data.count)
@@ -139,6 +149,7 @@ class ProfileViewController: UIViewController     {
         })
         .disposed(by: disposeBag)
         
+        
         viewModel.adsData
             .bind(to: advertisementsCollectionView.rx.items(cellIdentifier: "AdsCell",cellType: AdsCell.self)) { index , item, cell in
                 cell.setData(img: item.image ?? "")
@@ -146,6 +157,7 @@ class ProfileViewController: UIViewController     {
             .disposed(by: disposeBag)
     }
     
+    // tags
     private func bindTags(){
         viewModel.tagsData.subscribe(onNext:{ [weak self] tag in
             let rows = ceil(Double(tag.count)/3) // 1 columns

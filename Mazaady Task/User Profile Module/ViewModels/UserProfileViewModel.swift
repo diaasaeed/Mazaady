@@ -23,19 +23,42 @@ class UserProfileViewModel {
     let adsData = PublishSubject<[Advertisement]>()
 
     let errorSubject = PublishSubject<Error>()
+   
+    //filter product
+    let filteredProducts = BehaviorSubject<[ProductModel]>(value: [])
+    let searchQuery = BehaviorSubject<String>(value: "")
+    private var allProducts: [ProductModel] = []
     
-
+    
+    // caching
     private let cache: DataCache
     private let networkQueue = ConcurrentDispatchQueueScheduler(qos: .userInitiated)
     
     init(cache: DataCache = UserDefaultsCache()) {
         self.cache = cache
+        bindSearch()
+    }
+    
+    // filtered Products
+    private func bindSearch() {
+        searchQuery
+            .distinctUntilChanged()
+            .observe(on: MainScheduler.instance)
+            .subscribe(onNext: { [weak self] query in
+                guard let self = self else { return }
+                let filtered = query.isEmpty
+                    ? self.allProducts
+                : self.allProducts.filter { $0.name?.lowercased().contains(query.lowercased()) ?? false }
+                self.filteredProducts.onNext(filtered)
+            })
+            .disposed(by: disposeBag)
     }
     
     // Main function to fetch all data
     func fetchAllData() {
         isLoading.onNext(true)
         
+        // subscribe after get all data and update UI
         Observable.zip(
             fetchProducts(),
             fetchUserInfo(),
@@ -50,8 +73,13 @@ class UserProfileViewModel {
             self?.adsData.onNext(ads.advertisements ?? [])
             self?.productsData.onNext(products)
 
-//            self?.profileData.onNext(combinedData)
+
             self?.isLoading.onNext(false)
+            
+            // filtered Products
+            self?.allProducts = products
+            self?.filteredProducts.onNext(products)
+            
         }, onError: { [weak self] error in
             self?.errorSubject.onNext(error)
             self?.isLoading.onNext(false)

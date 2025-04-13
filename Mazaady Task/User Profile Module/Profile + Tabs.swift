@@ -27,9 +27,13 @@ extension ProfileViewController : CustomTabBarDelegate{
         ])
     }
     
+    
+    
     // Action
     func didSelectTab(index: Int) {
             print("Selected tab at index: \(index)")
+        
+        
             // Perform your actions here (switch views, update content, etc.)
         }
 }
