@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ProfileViewController: UIViewController     {
+class ProfileViewController: UIViewController  , UITextFieldDelegate   {
     
     @IBOutlet weak var headerProfileView: HeaderProfileView!
     @IBOutlet weak var headerHeigth: NSLayoutConstraint!
@@ -43,7 +43,7 @@ class ProfileViewController: UIViewController     {
 
         searchBarView.actionButton.addTarget(self, action: #selector(handleSearch), for: .touchUpInside)
         scrollView.delegate = self
-
+        searchBarView.textField.delegate = self
     }
     
     
@@ -54,12 +54,18 @@ class ProfileViewController: UIViewController     {
 
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder() // Hides the keyboard
+        return true
+    }
+    
     
     // when update in search bar
     @objc func handleSearch() {
         print("Search tapped with query:", searchBarView.textField.text ?? "")
         searchBarView.textField.rx.text.orEmpty.bind(to: viewModel.searchQuery)
             .disposed(by: disposeBag)
+        view.endEditing(true)
     }
     
     
@@ -79,13 +85,13 @@ class ProfileViewController: UIViewController     {
     private func bindProfile(){
         viewModel.userInfoData
             .subscribe(onNext: { [weak self] info in
-                self?.headerProfileView.userProfileImage.sd_setImage(with: URL(string: info.image ?? "placeholder-image" ), placeholderImage: UIImage(named: ""))
-                self?.headerProfileView.nameLable.text = info.name ?? ""
-                self?.headerProfileView.usernameLable.text = info.userName ?? ""
-                self?.headerProfileView.adderssLable.text = info.countryName ?? "" + " " + (info.cityName ?? "")
-                self?.headerProfileView.followersCountLable.text = String(info.followersCount ?? 0)
-                self?.headerProfileView.followingCountLable.text = String(info.followingCount ?? 0)
-
+              
+                self?.headerProfileView.SetuserData(info: info)
+                self?.headerProfileView.selectionAction = {
+                    print("ASDASD")
+                    let vc = self?.storyboard?.instantiateViewController(withIdentifier: "LanguageVC") as! LanguageVC
+                    self?.present(vc, animated: true)
+                }
             })
             .disposed(by: disposeBag)
     }

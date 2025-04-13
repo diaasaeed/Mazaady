@@ -1,0 +1,144 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "3yd-8J-Y0Q.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Offer Price\"; ObjectID = \"3yd-8J-Y0Q\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سعر العرض"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Offer Price"
+          }
+        }
+      }
+    },
+    "9ix-ux-TPa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"package of child clothes\"; ObjectID = \"9ix-ux-TPa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "package of child clothes"
+          }
+        }
+      }
+    },
+    "87g-Tj-YUe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Price\"; ObjectID = \"87g-Tj-YUe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السعر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Price"
+          }
+        }
+      }
+    },
+    "98c-dO-qGO.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"20 D\"; ObjectID = \"98c-dO-qGO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "20 D"
+          }
+        }
+      }
+    },
+    "aIQ-3d-Ijy.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1200 EGP\"; ObjectID = \"aIQ-3d-Ijy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1200 EGP"
+          }
+        }
+      }
+    },
+    "bmw-vf-CYd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"24H\"; ObjectID = \"bmw-vf-CYd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "24H"
+          }
+        }
+      }
+    },
+    "F0p-x7-4YC.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Lot starts in\"; ObjectID = \"F0p-x7-4YC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المذاد يبدأ في"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Lot starts in"
+          }
+        }
+      }
+    },
+    "NOO-qH-SVm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1200 EGP\"; ObjectID = \"NOO-qH-SVm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1200 EGP"
+          }
+        }
+      }
+    },
+    "oCL-Ri-04o.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"59M\"; ObjectID = \"oCL-Ri-04o\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "59M"
+          }
+        }
+      }
+    },
+    "yTT-WG-nPU.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1200 EGP\"; ObjectID = \"yTT-WG-nPU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1200 EGP"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

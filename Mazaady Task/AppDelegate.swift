@@ -6,14 +6,19 @@
 //
 
 import UIKit
-
+import MOLH
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    static var lang = ""
+    var window:UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MOLH.shared.activate(true)
+        loadSelectedLanguage()
+        if #available(iOS 13.0, *) {
+            window?.overrideUserInterfaceStyle = .light
+        }
         return true
     }
 
@@ -31,6 +36,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
+    func loadSelectedLanguage() {
+        let userDefaults = UserDefaults.standard
+        let languageKey = "selectedLanguage"
+        if let savedData = userDefaults.data(forKey: languageKey) {
+            let decoder = JSONDecoder()
+            if let loadedLanguage = try? decoder.decode(Language.self, from: savedData) {
+                print("SSS",loadedLanguage.code)
+                AppDelegate.lang = loadedLanguage.code
+                MOLH.setLanguageTo(loadedLanguage.code)
+            }
+        }
+    }
 }
 

@@ -2,6 +2,7 @@ PODS:
   - Alamofire (5.10.2)
   - Differentiator (5.0.0)
   - lottie-ios (4.5.1)
+  - MOLH (1.4.3)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
@@ -22,6 +23,7 @@ PODS:
 
 DEPENDENCIES:
   - lottie-ios
+  - MOLH
   - Moya
   - RxCocoa
   - RxDataSources
@@ -33,6 +35,7 @@ SPEC REPOS:
     - Alamofire
     - Differentiator
     - lottie-ios
+    - MOLH
     - Moya
     - RxCocoa
     - RxDataSources
@@ -44,6 +47,7 @@ SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
@@ -51,6 +55,6 @@ SPEC CHECKSUMS:
   RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
   SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
 
-PODFILE CHECKSUM: 5450dbb411684458cbd4bc7ceb8f4619cf8d2efc
+PODFILE CHECKSUM: 6d76dd13d05bfa22148eec857bd490919ea6bcef
 
 COCOAPODS: 1.15.2

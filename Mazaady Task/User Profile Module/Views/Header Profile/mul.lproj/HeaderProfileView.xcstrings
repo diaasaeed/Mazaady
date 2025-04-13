@@ -1,0 +1,102 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "4PN-XD-SuD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Username\"; ObjectID = \"4PN-XD-SuD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Username"
+          }
+        }
+      }
+    },
+    "cJX-W7-7M4.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"cJX-W7-7M4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Dpk-OO-W9g.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Address\"; ObjectID = \"Dpk-OO-W9g\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Address"
+          }
+        }
+      }
+    },
+    "pcc-8r-k8A.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Following\"; ObjectID = \"pcc-8r-k8A\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Following"
+          }
+        }
+      }
+    },
+    "PQk-RP-1ge.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"English\"; ObjectID = \"PQk-RP-1ge\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "English"
+          }
+        }
+      }
+    },
+    "pwq-f8-Fff.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Followers\"; ObjectID = \"pwq-f8-Fff\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المتابعون"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Followers"
+          }
+        }
+      }
+    },
+    "WUM-Md-Yod.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Name\"; ObjectID = \"WUM-Md-Yod\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Name"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

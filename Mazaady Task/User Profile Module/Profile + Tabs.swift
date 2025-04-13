@@ -13,7 +13,7 @@ extension ProfileViewController : CustomTabBarDelegate{
     
     // UI
     func SetupTabUI(){
-        let customTabBar = CustomTabBar(tabs: ["Products", "Reviews", "Followers"])
+        let customTabBar = CustomTabBar(tabs: ["Products".localized, "Reviews".localized, "Followers".localized])
         customTabBar.backgroundColor = .clear
         customTabBar.delegate = self
 
@@ -29,11 +29,11 @@ extension ProfileViewController : CustomTabBarDelegate{
     
     
     
+    
     // Action
     func didSelectTab(index: Int) {
             print("Selected tab at index: \(index)")
-        
-        
-            // Perform your actions here (switch views, update content, etc.)
-        }
+        view.endEditing(true)
+
+    }
 }

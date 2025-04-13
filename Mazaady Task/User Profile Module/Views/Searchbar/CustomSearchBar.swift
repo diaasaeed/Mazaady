@@ -17,11 +17,19 @@ class CustomSearchBar: UIView {
 
     private func setupViews() {
         // Search TextField
-        textField.placeholder = "Search"
+        if self.loadSelectedLanguage() == "ar"{
+            textField.textAlignment = .right
+            print("rsrsdrsd ar",loadSelectedLanguage())
+        }else{
+            textField.textAlignment = .left
+            print("rsrsdrsd en",loadSelectedLanguage())
+        }
+        textField.placeholder = "Search".localized
         textField.backgroundColor = .white
         textField.layer.cornerRadius = 18
         textField.layer.masksToBounds = false
         textField.borderStyle = .none
+        
 
         // Apply shadow to the textField
         textField.layer.shadowColor = UIColor.black.cgColor
@@ -62,4 +70,32 @@ class CustomSearchBar: UIView {
             actionButton.heightAnchor.constraint(equalToConstant: 40),
         ])
     }
+    
+    
+    func loadSelectedLanguage() -> String{
+        var lang = ""
+        let userDefaults = UserDefaults.standard
+        let languageKey = "selectedLanguage"
+        if let savedData = userDefaults.data(forKey: languageKey) {
+            let decoder = JSONDecoder()
+            if let loadedLanguage = try? decoder.decode(Language.self, from: savedData) {
+                print("SSS",loadedLanguage.code)
+                lang = loadedLanguage.code
+            }
+        }
+        return lang
+    }
+}
+
+
+extension String {
+    
+    /**
+     get the localized value of the string key
+     */
+    var localized: String {
+        let localizedString = NSLocalizedString(self, comment: "")
+        return localizedString
+    }
+    
 }
